@@ -1,0 +1,10 @@
+name: First gha
+on:
+  push
+jobs:
+  gha-1:
+    runs-on: ubuntu-latest
+    steps:
+      name: print a message
+      run: echo "Helo Welcome Amigo"
+    
